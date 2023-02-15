@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');    
+    background-image:linear-gradient(to right, #FCFFB3, #C2FFCF, #A2BCE8, #FFBFFE, #E8C2A2) ;
+}
+main {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+    background-color: white;
+}
+p {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');    
+    text-align: justify;
+}

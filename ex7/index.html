@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .flex-container{
+            display: flex;
+            flex-flow: column;           
+            position: relative;
+            flex-wrap: wrap;
+            
+        }
+        
+        div{
+            display: flexbox;
+            border-top: 10px;
+            border-style: outset;
+            border-color: transparent;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            height: 255px;
+            width: 270px;
+           
+
+        }
+        div > span{
+            display: none;
+        }
+        div:active > span {
+            display: block;
+        }
+        div:active > p {
+            display: none;
+        }
+        span{
+            font: italic normal 0.7em Arial;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+          }
+    </style>
+</head>
+<body>
+ <div class="flex-container">
+    <div>
+        <p>
+          COALA <br> <span>Clique aqui</span>
+        </p>
+        <span><img src="img/amimir.jpg" alt="fotocoala"></span>
+
+    </div>
+    <div>
+        <p>TARTARUGA <br> <span>Clique aqui</span></p>
+        <span>
+            <img src="img/turtle.jfif" alt="">
+        </span>
+    </div>
+    <div>
+        <p>COELHO <br> <span>Clique aqui</span>
+        </p>
+        <span>
+            <img src="img/cuei.webp" alt="">
+        </span>
+    </div>
+    <div>
+        <p>MACACO <br> <span>Clique aqui</span>
+        </p>
+        <span>
+            <img src="img/monk.jpg" alt="">
+        </span>
+    </div>
+
+    <div>
+        <p>
+            ARARA <br> <span>Clique aqui</span>
+          </p>
+          <span><img src="https://www.puzi.com.br/products/puzzle-de-madeira-arara-vermelha.webp" alt="fotocoala"></span>
+  
+    </div>
+    <div>
+        <p>
+            ARARA AZUL <br> <span>Clique aqui</span>
+          </p>
+          <span><img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/arara-azul.jpg" alt="fotocoala"></span>
+
+ </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+
+@font-face {
+    font-family:'Tangerine';
+    src: url(fontes/Tangerine-Bold.ttf) format(truetype),url(fontes/Tangerine-Bold.ttf) format(truetype);
+}
+
+h1{
+    font: normal normal 4em Oswald;
+    text-align: center;
+}
+
+p{
+    font: normal normal 2em Tangerine;
+    text-align: justify;
+}

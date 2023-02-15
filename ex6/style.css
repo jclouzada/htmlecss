@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: darkslateblue;
+    text-align: center;
+}
+#titulo {
+    text-decoration: underline;
+}
+
+h2{
+    color: rgb(0, 80, 24);
+    text-align: center;
+}
+.basico{
+    background-color: rgba(139, 248, 139, 0.781);
+}
+.medio{
+    background-color: rgba(255, 255, 117, 0.63);
+}
+.pro{
+    background-color: rgba(255, 129, 129, 0.651);
+}
+
+p{
+    text-align: justify;
+}
