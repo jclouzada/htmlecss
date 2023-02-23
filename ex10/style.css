@@ -1,3 +1,4 @@
+
 div{
     height: 300px;
     width: 300px;
@@ -5,11 +6,15 @@ div{
     border-radius: 10px;
     background-color: aliceblue;
     border: 2px solid black;
+    margin: auto;
 }
 #botao:checked ~ label>div#q1{
     background-image: url(imagens/wallpaper002.jpg);
 }
 
+#q1{
+    margin-left: -25px;
+}
 #q2:hover{
     background-image:linear-gradient(to bottom, aqua, aquamarine);
 }
