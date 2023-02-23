@@ -1,0 +1,21 @@
+div{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+#botao:checked ~ label>div#q1{
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+#q2:hover{
+    background-image:linear-gradient(to bottom, aqua, aquamarine);
+}
+#q3:active{
+    background-color: aquamarine;
+}
+#botao{
+    opacity: 0;
+}
