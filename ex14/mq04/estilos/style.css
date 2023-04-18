@@ -9,21 +9,25 @@
     box-sizing: border-box;
 }
 
-body, html{
-    width: 100vw;
+html{
     height: 100vh;
 }
 
 body{
     background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+
 
 main{
     background: rgba(255, 255, 255, 0.671);
     width: 90vw;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
+
 }
 h1{
     text-align: center;
