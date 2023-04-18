@@ -1,2 +1,26 @@
 @charset "utf-8";
 
+/*
+Typical device breakpoints
+Pqns telas - até 600px
+Celular - 600px ate 768px
+tablet - 769px até 992px
+desktop - 992px ate 1200px
+grandes telas - > 1200px
+*/
+
+@media prin{
+
+}
+
+@media and (max-width: 768) and (max-widht: 992px ) {
+
+}
+
+@media and (max-width: 993px) and (max-widht:1200 ){
+
+}
+
+@media and (min-widht:1200 ){
+
+}
